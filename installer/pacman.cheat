@@ -2,3 +2,6 @@
 
 # install all rust tools with pacman
 sudo pacman -S bat fd lsd tokei topgrade
+
+# install emoji
+sudo pacman -S noto-fonts-emoji
