@@ -1,0 +1,4 @@
+% installer
+
+# install all rust tools with pacman
+sudo pacman -S bat fd lsd tokei topgrade

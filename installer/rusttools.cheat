@@ -1,0 +1,4 @@
+% installer
+
+# install all rust tools
+cargo install navi pastel pueue skim
