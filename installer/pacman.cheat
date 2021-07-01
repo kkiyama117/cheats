@@ -1,7 +1,11 @@
-% installer
+% installer, pacman, yay
 
 # install all rust tools with pacman
-sudo pacman -S bat fd lsd tokei topgrade
+sudo pacman -S yay
+
+# install all rust tools with pacman
+yay -S bat fd lsd tokei topgrade paru tealdeer hyperfine zoxide
+;yay -S paru
 
 # install emoji
 sudo pacman -S noto-fonts-emoji

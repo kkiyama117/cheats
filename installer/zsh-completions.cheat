@@ -1,0 +1,7 @@
+% installer, zsh, completions
+
+# create completions for deno
+deno completions zsh > $ZDOTDIR/completions/_deno
+
+# create completions for rhq
+rhq completion zsh  $ZDOTDIR/completions/_rhq

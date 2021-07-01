@@ -1,0 +1,7 @@
+% tools, alternatives
+
+# alternative grep raw
+rg <pattern>
+
+# alternative grep
+rg --no-ignore --hidden <pattern>
