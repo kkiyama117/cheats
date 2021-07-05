@@ -1,0 +1,4 @@
+% openssl, certificate, encryption
+
+# Generate ed25519 key
+ssh-keygen -t ed25519 -C <COMMENT>
