@@ -1,9 +1,9 @@
 % installer, cargo
 
 # install all rust tools
-cargo install navi pastel pueue skim rhq
+cargo install navi pastel pueue skim rhq mdbook git-delta
 
-#winstall rust utils
+# install rust utils
 cargo install cargo-edit cargo-expand cargo-generate cargo-play cargo-watch
 
 # install deno

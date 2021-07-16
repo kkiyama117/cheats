@@ -4,4 +4,8 @@
 deno completions zsh > $ZDOTDIR/completions/_deno
 
 # create completions for rhq
-rhq completion zsh  $ZDOTDIR/completions/_rhq
+rhq completion zsh $ZDOTDIR/completions/_rhq
+
+# create completions for pueue
+pueue completion zsh $ZDOTDIR/completions
+

@@ -1,11 +1,13 @@
-% installer, pacman, yay
+% installer, pacman, paru
+
+# install yay
+sudo pacman -S paru
 
 # install all rust tools with pacman
-sudo pacman -S yay
+paru -S bat fd lsd tokei topgrade paru tealdeer hyperfine zoxide
 
-# install all rust tools with pacman
-yay -S bat fd lsd tokei topgrade paru tealdeer hyperfine zoxide
-;yay -S paru
+# install neovim-git
+paru -S neovim-git
 
 # install emoji
 sudo pacman -S noto-fonts-emoji
