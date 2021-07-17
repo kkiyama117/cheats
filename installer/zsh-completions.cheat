@@ -1,5 +1,8 @@
 % installer, zsh, completions
 
+# create completions for rustup 
+rustup completions zsh > $ZDOTDIR/completions/_rustup
+
 # create completions for deno
 deno completions zsh > $ZDOTDIR/completions/_deno
 
@@ -7,5 +10,5 @@ deno completions zsh > $ZDOTDIR/completions/_deno
 rhq completion zsh $ZDOTDIR/completions/_rhq
 
 # create completions for pueue
-pueue completion zsh $ZDOTDIR/completions
+pueue completions zsh $ZDOTDIR/completions
 
