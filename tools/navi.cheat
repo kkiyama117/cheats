@@ -1,4 +1,6 @@
 % tools, navi
 
+# NAVI (help of this)
+navi -h
 # NAVI HOME
 cd $(navi info cheats-path)/mycheats
