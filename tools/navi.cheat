@@ -2,5 +2,15 @@
 
 # NAVI (help of this)
 navi -h
+
+# cheats of NAVI itself
+navi fn welcome
+
+# navi with teardeel
+navi --tldr
+
+# navi with cheatsh
+navi --cheatsh
+
 # NAVI HOME
 cd $(navi info cheats-path)/mycheats
