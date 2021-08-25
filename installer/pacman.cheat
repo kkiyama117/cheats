@@ -4,10 +4,10 @@
 sudo pacman -S paru
 
 # install all rust tools with pacman
-paru -S bat fd lsd tokei topgrade tealdeer hyperfine zoxide t-rec
+paru -S bat fd lsd tokei topgrade tealdeer hyperfine zoxide t-rec dotter-rs
 
 # install neovim-git
 paru -S neovim-git
 
-# install emoji
+# install emoji fonts for Neovim
 sudo pacman -S noto-fonts-emoji
