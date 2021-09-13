@@ -1,0 +1,25 @@
+% tools zsh
+
+# move to vim config home
+cd $NHOME
+
+# vi
+vi
+
+# debug mode
+dvi
+
+# denops trace
+TRACE=true dvi
+
+# vim log
+vi /var/log/nvim/index.log
+
+# lsp log
+vi $XDG_CACHE_HOME/vim/lsp.log
+
+# profile
+vi --startuptime $XDG_CACHE_HOME/vim/startup.log
+
+# profile
+vi $XDG_CACHE_HOME/vim/startup.log

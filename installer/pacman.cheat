@@ -6,6 +6,9 @@ sudo pacman -S paru
 # install all rust tools with pacman
 paru -S bat fd lsd tokei topgrade tealdeer hyperfine zoxide t-rec dotter-rs
 
+# install better cli tools
+paru -S rofi
+
 # install neovim-git
 paru -S neovim-git
 
